@@ -19,7 +19,7 @@ Thank you for your interest in contributing to Fluxo Typestate! This document pr
 6. Submit a pull request
 
 ```bash
-git clone https://github.com/your-username/fluxo-typestate.git
+git clone https://github.comFluxo-Labs/fluxo-typestate.git
 cd fluxo-typestate
 git checkout -b feature/your-feature-name
 ```
