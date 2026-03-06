@@ -6,6 +6,12 @@ license.workspace = true
 authors.workspace = true
 description.workspace = true
 
+readme = "../README.md"
+repository.workspace = true
+documentation.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
 [lib]
 proc-macro = true
 
