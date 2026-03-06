@@ -10,6 +10,7 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT"
 authors = ["Fluxo Labs <hello@fluxolabs.dev>", "Alisio85"]
+description = "Zero-cost type-state pattern via procedural macros"
 repository = "https://github.com/fluxo-labs/fluxo-typestate"
 homepage = "https://fluxolabs.dev"
 documentation = "https://docs.rs/fluxo-typestate"
