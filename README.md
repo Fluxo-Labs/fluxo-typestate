@@ -91,4 +91,4 @@ SPDX-License-Identifier: MIT
 
 ## Contributing
 
-Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
+Contributions are welcome! Please read our [contributing guidelines](https://github.com/Fluxo-Labs/fluxo-typestate/blob/main/CONTRIBUTING.md) before submitting PRs.
