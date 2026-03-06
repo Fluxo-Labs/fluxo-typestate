@@ -1,0 +1,34 @@
+[workspace]
+members = [
+    "fluxo-typestate",
+    "fluxo-typestate-macros",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Fluxo Labs <hello@fluxolabs.dev>", "Alisio85"]
+repository = "https://github.com/fluxo-labs/fluxo-typestate"
+homepage = "https://fluxolabs.dev"
+documentation = "https://docs.rs/fluxo-typestate"
+keywords = ["typestate", "state-machine", "macro", "rust", "fluxo"]
+categories = ["development-tools", "rust-patterns"]
+
+[workspace.dependencies]
+fluxo-typestate = { path = "./fluxo-typestate", version = "0.1.0" }
+fluxo-typestate-macros = { path = "./fluxo-typestate-macros", version = "0.1.0" }
+tracing = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+heck = "0.4"
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["full", "parsing"] }
+trybuild = "1.0"
+static_assertions = "1.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
