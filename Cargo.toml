@@ -11,7 +11,6 @@ edition = "2024"
 license = "MIT"
 authors = ["Fluxo Labs <hello@fluxolabs.dev>", "Alisio85"]
 description = "Zero-cost type-state pattern via procedural macros"
-license = "MIT"
 readme = "README.md"
 repository = "https://github.com/fluxo-labs/fluxo-typestate"
 documentation = "https://docs.rs/fluxo-typestate"
